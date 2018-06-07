@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="How well do you know the MCU?">
+    <title>Marvel Cinematic Universe Quiz</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="data.js"></script>
+
+  </head>
+  <body>
+<!--This header element is responsible for the logo, question count and score-->
+  
+    <header role="header">
+      <div class="logo">
+        <a href="index.html">
+          <img src="https://vignette.wikia.nocookie.net/marvelcomicsfanon/images/f/ff/Mcu_logo.png/revision/latest?cb=20180202202457" alt="MCU logo"/>
+        </a>
+      </div>
+      <ul>
+        <li>Question: <span class="question">0</span>/10</li>
+        <li>Score: <span class="score">0</span></li>
+      </ul>
+    </header>
+<!--The main element contains the start page-->   
+      <main role =main>
+        <div class="quizStart">
+          <h1>How well do you know the MCU?</h1>
+          <h3>Spoilers Ahead</h3>   
+          <button type="button" id="start-button">I'm Ready!</button>
+        </div>
+      </main>
+      <div class="quizQuestions"></div>
+ 
+  </body>
+</html>
